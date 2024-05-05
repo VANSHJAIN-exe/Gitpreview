@@ -1,0 +1,457 @@
+/* primarycode */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+.main {
+    background-image: url(Assests/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+/* section 1 of the code */
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.60;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    max-width: 81vw;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav svg {
+    width: 200px;
+    fill: #e50914;
+    position: relative;
+    z-index: 10;
+}
+
+nav .buttons1 {
+    position: relative;
+    z-index: 10;
+}
+
+.maintextparent {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    gap: 23px;
+}
+
+/* section 2 of the code  */
+.maintext1 {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.maintext2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.maintext3 {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.mail {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.4);
+    margin: 30px 0px 0px 0px;
+    gap: 10px;
+}
+
+.speration1 {
+    background-color: rgb(88, 88, 88);
+    height: 10px;
+    position: relative;
+    z-index: 1020;
+}
+
+.getstarted {
+    padding: 10px 14px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.getstarted:hover {
+    background-color: rgb(194, 1, 1);
+    transition: 0.4s ease;
+}
+
+.english {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.034);
+    color: white;
+    border: 2px solid white;
+    padding: 4px 30px 4px 30px;
+    border-radius: 4px;
+}
+
+.signin {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.mailbox .input {
+    padding: 10px 60px 10px 16px;
+    font-weight: bold;
+    border: 1.8px solid rgb(141, 140, 140);
+    border-radius: 3px;
+    background-color: rgba(3, 3, 3, 0.2);
+    color: white;
+}
+
+/* section 3 of the code  */
+.section1 {
+    color: white;
+    position: relative;
+    z-index: 19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.textcontentofsection1 {
+    margin: 100px;
+    font-family: Poppins, sans-serif;
+}
+
+.strong {
+    font-size: 70px;
+    text-transform: lowercase;
+    display: block;
+}
+
+.strong:first-letter {
+    text-transform: uppercase;
+}
+
+.spanofsec1 {
+    font-size: 20px;
+}
+
+.img1ofsection1 img {
+    position: relative;
+    z-index: 1;
+}
+.vidofsec1{
+    position: absolute;
+    top: 84px;
+    right: 10px;
+}
+
+/* section 4 of the code  */
+.speration2 {
+    background-color: rgb(88, 88, 88);
+    height: 10px;
+    width:100%;
+}
+
+.section2 {
+    color: white;
+    position: relative;
+    z-index: 19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.textcontentofsection2 {
+    margin: 100px;
+    font-family: Poppins, sans-serif;
+}
+
+.strong2 {
+    font-size: 70px;
+    text-transform: lowercase;
+    display: block;
+}
+
+.strong2:first-letter {
+    text-transform: uppercase;
+}
+
+.spanofsec1 {
+    font-size: 20px;
+}
+
+.img1ofsection1 {
+    position: relative;
+    z-index: 1;
+}
+
+.speration3 {
+    background-color: rgb(88, 88, 88);
+    height: 10px;
+    width:100%;
+}
+
+/* section 5 of the code  */
+.section3 {
+    color: white;
+    position: relative;
+    z-index: 19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.textcontentofsection1 {
+    margin: 100px;
+    font-family: Poppins, sans-serif;
+}
+
+.strong3 {
+    font-size: 70px;
+    text-transform: lowercase;
+    display: block;
+}
+
+.strong3:first-letter {
+    text-transform: uppercase;
+}
+
+.spanofsec1 {
+    font-size: 20px;
+}
+
+.img1ofsection1 {
+    position: relative;
+    z-index: 100;
+    width: 555px;
+}
+
+.video1ofsec3 {
+    position: absolute;
+    right: 56px;
+    top: 140px;
+}
+
+.speration4 {
+    background-color: rgb(88, 88, 88);
+    height: 10px;
+    width:100%;
+}
+
+/* section 6 of the code  */
+.speration5 {
+    background-color: rgb(88, 88, 88);
+    height: 10px;
+    width:100%;
+}
+
+/* section 7 of the code (last)  */
+
+.headingoffaq {
+    color: white;
+    text-align: center;
+    padding: 34px;
+    font-size: 32px;
+}
+
+.headingoffaq strong h2 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 900;
+}
+
+.q1 {
+    margin: 10px auto;
+    background-color: rgb(40, 38, 38);
+    color: white;
+    max-width: 70%;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.q1 p {
+    padding: 10px;
+    font-size: 23px;
+}
+
+.q1 svg {
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.q1:hover {
+    background-color: rgb(89, 88, 88);
+}
+
+.speration6 {
+    background-color: rgb(88, 88, 88);
+    height: 10px;
+    width:100%;
+    margin: 50px 0px 10px 0px;
+}
+
+.txtbeforefoot {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px 25px 0px;
+}
+
+.inputbeforefoot {
+    display: flex;
+    justify-content: center;
+}
+.inputemail1{
+    padding: 10px 15px;
+    width: 230px;
+    border-radius:5px;
+    font-family: "Segoe UI", sans-serif;
+    border: none;
+    background: rgba(75, 74, 74, 0.324);
+    border: 1px solid #7b7b7b;
+    color: white;
+    font-weight: 700;
+}
+.getstarted1{
+    padding: 10px 15px;
+    width: 120px;
+    font-weight: 700;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+.sec1offoot{
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin: 20px 0px 0px 100px; */
+    margin: 0px auto 50px auto;
+}
+footer div a{
+    color: rgba(255, 255, 255, 0.7);
+}
+footer div a:active{
+    color: red;
+    text-decoration-color: rgba(255,255,255,0.7);
+}
+.Qtocall{
+    color: white;
+    width: 100%;
+    margin: 30px 7.9vw;
+    text-decoration: dashed;
+}
+body{
+    overflow-x: hidden;
+}
+.select{
+    color: white;
+    font-weight: 400;
+    border: 1px solid white;
+    background: transparent;
+    margin-bottom: 50px;
+    margin-left: 7.5vw;
+    padding: 7px 10px;
+}
+.select option{
+    color: black
+}
+/* . */
+/* . */
+/* .  */
+/* .  */
+/* .  */
+/* .  */
+/* .  */
+/* . */
+/* .  */
+/* . */
+
+
+/* LAST PART OF THE WEBSITE :))) */
+.last{
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 7.5vw;
+    height: 100px;
+}
+.btn svg{
+    fill: white;
+    height: 20px;
+}
+@media  screen and (max-width: 820px) {
+    .section1{
+        flex-wrap: wrap;
+    }
+    .speration1{
+        width: 100vw;
+    }
+    .speration2{
+        width: 100vw;
+    } .speration3{
+        width: 100vw;
+    }
+    .speration4{
+        width: 100vw;
+    } .speration1{
+        width: 100vw;
+    }
+    .speration5{
+        width: 100vw;
+    }.speration6{
+        width: 100vw;
+    }
+}
